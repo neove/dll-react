@@ -23,6 +23,10 @@
 
 # changeLog:
 
+## 16.1.2
+
+修改项目内的依赖关系，将依赖放到devDependencies 以及 peerDependencies，项目内的库及其版本都未改动
+
 ## 16.1.1
 在react16.1.0版本上加上immutable依赖
 
