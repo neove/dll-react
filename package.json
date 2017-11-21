@@ -21,6 +21,9 @@
     },
     "license": "ISC",
     "dependencies": {
+    },
+    "devDependencies": {
+        "webpack": "^3.0.0",
         "@talentui/dll-webpack-config": "^1.0.1",
         "immutable": "^3.8.2",
         "prop-types": "^15.5.10",
@@ -29,9 +32,16 @@
         "react-redux": "^5.0.5",
         "react-router-dom": "^4.1.1",
         "react-transition-group": "^1.2.0",
-        "redux": "^3.6.0"
+        "redux": "^3.6.0"  
     },
-    "devDependencies": {
-        "webpack": "^3.0.0"
+    "peerDependencies": {
+        "immutable": "^3.8.2",
+        "prop-types": "^15.5.10",
+        "react": "16.1.0",
+        "react-dom": "16.1.0",
+        "react-redux": "^5.0.5",
+        "react-router-dom": "^4.1.1",
+        "react-transition-group": "^1.2.0",
+        "redux": "^3.6.0"
     }
 }
