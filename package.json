@@ -1,6 +1,6 @@
 {
     "name": "@talentui/dll-react",
-    "version": "16.1.1",
+    "version": "16.1.5",
     "description": "project to build talentui libs into an dll",
     "main": "./dist/dll-react.dev.js",
     "repository": {
@@ -9,7 +9,7 @@
     },
     "scripts": {
         "build": "rm -rf ./dist/*  && webpack",
-        "build-prod": "rm -rf ./dist/* && NODE_ENV=production webpack",
+        "build-prod": "NODE_ENV=production webpack",
         "debug": "node --inspect --debug-brk node_modules/.bin/webpack",
         "prepublish": "npm run clear-dist && npm run build && npm run build-prod",
         "test": "echo \"Error: no test specified\" && exit 1",
@@ -21,7 +21,7 @@
     },
     "license": "ISC",
     "dependencies": {
-        "@talentui/dll-webpack-config": "^1.0.1",
+        "@talentui/dll-webpack-config": "^1.0.2",
         "immutable": "^3.8.2",
         "prop-types": "^15.5.10",
         "react": "16.1.0",
